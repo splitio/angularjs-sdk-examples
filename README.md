@@ -9,4 +9,5 @@
 ## Notes
 
 Used example code from `https://github.com/angular/angular-seed`.
+
 Added a service as a example that instanciate splitio javascript sdk.
