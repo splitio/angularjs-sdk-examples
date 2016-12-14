@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.view2', ['ngRoute'])
+angular.module('myApp.view2', ['ngRoute', 'thirdParty'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view2', {
@@ -9,6 +9,8 @@ angular.module('myApp.view2', ['ngRoute'])
   });
 }])
 
-.controller('View2Ctrl', [function() {
-
+.controller('View2Ctrl', ['$scope', 'splitio', function($scope, splitio) {
+  $scope.feature_1 = splitio.getTreatment('feature_1');
+  $scope.feature_2 = splitio.getTreatment('feature_2');
+  $scope.feature_3 = splitio.getTreatment('feature_3');
 }]);

@@ -10,5 +10,7 @@ angular.module('myApp.view1', ['ngRoute', 'thirdParty'])
 }])
 
 .controller('View1Ctrl', ['$scope', 'splitio', function($scope, splitio) {
-  $scope.treatment = splitio.getTreatment('sample');
+  $scope.feature_1 = splitio.getTreatment('feature_1');
+  $scope.feature_2 = splitio.getTreatment('feature_2');
+  $scope.feature_3 = splitio.getTreatment('feature_3');
 }]);

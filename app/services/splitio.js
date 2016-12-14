@@ -9,7 +9,9 @@ myService.factory('splitio', function() {
       authorizationKey: 'localhost'
     },
     features: {
-      sample: 'off'
+      feature_1: 'off',
+      feature_2: 'on',
+      feature_3: 'v2'
     }
   });
 
