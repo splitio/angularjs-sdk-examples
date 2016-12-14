@@ -6,7 +6,7 @@ for unit tests using Angular.
 ## Getting started
 
 - `npm install` - (you also need to have bower installed).
-- `npm start` it will start a server on `localhost:8080`
+- `npm start` it will start a server on `localhost:8000`
 - `npm test` will run each test.
 
 ## Notes
