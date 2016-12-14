@@ -4,7 +4,7 @@ var splitService = angular.module('splitModule', [])
 
 splitService.factory('splitio', function() {
   // Running the SDK in 'off-the-grid' Mode since authorizationKey : 'localhost'
-  // To bind a real client, inject the api key using your favorite building framework.
+  // To bind a non 'off-the-grid' client, inject the real API Key
   var sdk = splitio({
     core: {
       authorizationKey: 'localhost'
