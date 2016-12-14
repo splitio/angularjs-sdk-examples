@@ -30,6 +30,7 @@ describe('View 2 Module', function() {
 
     it('Scenario where splitio sdk is mocked using angular mock', inject(function($controller) {
       var $scope = {};
+      // $controller calls getTreatment internally
       var view1Ctrl = $controller('View2Ctrl', { $scope });
       expect($scope.feature_1).toEqual('off');
       expect($scope.feature_2).toEqual('off');
