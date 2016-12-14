@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.view2', ['ngRoute', 'thirdParty'])
+angular.module('myApp.view2', ['ngRoute', 'splitModule'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view2', {
