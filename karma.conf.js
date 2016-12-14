@@ -14,7 +14,7 @@ module.exports = function(config) {
       'services/**/*.js'
     ],
 
-    autoWatch: true,
+    autoWatch: false, // Make this true for interactive development
 
     frameworks: ['jasmine'],
 
