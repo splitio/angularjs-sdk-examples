@@ -15,6 +15,7 @@ module.exports = function(config) {
     ],
 
     autoWatch: false, // Make this true for interactive development
+    singleRun: true,
 
     frameworks: ['jasmine'],
 
