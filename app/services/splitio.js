@@ -7,7 +7,8 @@ splitService.factory('splitio', function() {
   // To bind a non 'off-the-grid' client, inject the real API Key
   var sdk = splitio({
     core: {
-      authorizationKey: 'localhost'
+      authorizationKey: 'localhost',
+      key: 'customer-key'
     },
     // In non-localhost mode, this map is ignored.
     features: {
@@ -17,5 +18,5 @@ splitService.factory('splitio', function() {
     }
   });
 
-  return sdk;
+  return sdk.client();
 });
