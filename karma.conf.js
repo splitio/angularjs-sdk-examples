@@ -5,7 +5,7 @@ module.exports = function(config) {
     basePath: './app',
 
     files: [
-      'http://cdn.split.io/sdk/split-7.1.1.min.js',
+      'http://cdn.split.io/sdk/split-10.11.1.min.js',
       'bower_components/angular/angular.js',
       'bower_components/angular-route/angular-route.js',
       'bower_components/angular-mocks/angular-mocks.js',
