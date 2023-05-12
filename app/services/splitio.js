@@ -12,9 +12,9 @@ splitService.factory('splitio', function() {
     },
     // In non-localhost mode, this map is ignored.
     features: {
-      feature_1: 'off',
-      feature_2: 'on',
-      feature_3: 'v2'
+      feature_flag_1: 'off',
+      feature_flag_2: 'on',
+      feature_flag_3: 'v2'
     }
   });
 

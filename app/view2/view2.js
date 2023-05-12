@@ -10,7 +10,7 @@ angular.module('myApp.view2', ['ngRoute', 'splitModule'])
 }])
 
 .controller('View2Ctrl', ['$scope', 'splitio', function($scope, splitio) {
-  $scope.feature_1 = splitio.getTreatment('feature_1');
-  $scope.feature_2 = splitio.getTreatment('feature_2');
-  $scope.feature_3 = splitio.getTreatment('feature_3');
+  $scope.feature_flag_1 = splitio.getTreatment('feature_flag_1');
+  $scope.feature_flag_2 = splitio.getTreatment('feature_flag_2');
+  $scope.feature_flag_3 = splitio.getTreatment('feature_flag_3');
 }]);
