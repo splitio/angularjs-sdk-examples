@@ -15,9 +15,9 @@ describe('myApp.view1 module', function() {
     it('Scneario where splitio sdk use off-the-grid mode', inject(function($controller) {
       var $scope = {};
       var view1Ctrl = $controller('View1Ctrl', { $scope });
-      expect($scope.feature_1).toEqual('off');
-      expect($scope.feature_2).toEqual('on');
-      expect($scope.feature_3).toEqual('v2');
+      expect($scope.feature_flag_1).toEqual('off');
+      expect($scope.feature_flag_2).toEqual('on');
+      expect($scope.feature_flag_3).toEqual('v2');
     }));
   });
 
